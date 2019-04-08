@@ -10,7 +10,7 @@ Projekat rađen u okviru PHP kursa na višoj ICT skoli. Projekat obuhvata implem
 
 # Tehnologije
 ## Programski jezik
-PHP, AJAX, MySQL, JavaScript
+PHP, MySQL, JavaScript
 
 ## Okruženje
 XAMPP, Sublime Text
