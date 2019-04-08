@@ -1,6 +1,5 @@
 # Telefoni
 Projekat rađen u okviru PHP kursa na višoj ICT skoli. Projekat obuhvata implementaiju online prodavnice mobilnih telefona. Sadržaj sajta je dinamički i dobijen je iz baze podataka (MySQL). Aplikacija sadrži sledeće funkcionalnosti: 
-* dinamički meni - čitanje podataka iz baze i implementacija get request zahteva kroz link
 * logovanje - zaštita sesijama
 * straničenje proizvoda - paginacija
 * admin panel - unos, izmene i brisanje sadržaja baze
