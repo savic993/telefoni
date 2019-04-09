@@ -1,0 +1,547 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 40px;
+	margin-top:10px;
+}
+h3{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+h5{
+	font-size: 12px;
+}
+h6{
+	float: left;
+	margin-top: 5px;
+}
+.telefon h4{
+	font-size: 15px;
+}
+.telefon h5{
+	font-style: italic;
+}
+#meni{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #f5f5f5;
+}
+#zaglavlje{
+	width: 100%;
+	height: 250px;
+	margin-top: 120px;
+	background: #dae3e7;
+}
+#sadrzaj{
+	width: 1024px;
+	margin: 0 auto;
+}
+#futer{
+	width: 100%;
+	height: 150px;
+	margin-top: 15px;
+	background: #32383e;
+	color: #a1aab4;
+	padding: 10px;
+}
+#vrh{
+	height: 25px;
+	padding: 10px;
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+	display: none;
+}
+.okvir{
+	width: 1024px;
+	margin: 0 auto;
+}
+#naslov{
+	float: left;
+	text-transform: uppercase;
+	height: 100px;
+	padding: 10px;
+	margin-right: 5px;
+}
+#naslov h1 a{
+	text-decoration: none;
+	color: #49515a;
+}
+#okvirMeni{
+	float: left;
+	height: 100px;
+	font-size: 15px;
+}
+#pretraga{
+	float: left;
+	height: 100px;
+	width: 200px;
+	padding: 10px;
+}
+#pretraga input{
+	float: left;
+}
+#pretraga #tbPretraga{
+	height: 20px;
+	width: 60%;
+	padding: 3px;
+}
+.dugmePretraga{
+	background: url('../slike/ikonice/search.png') no-repeat;
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+}
+#okvirLogovanje{
+	float: left;
+	height: 100px;
+	width: 200px;
+	text-align: center;
+}
+#okvirLogovanje a{
+	text-decoration: none;
+	float: left;
+	width: 40%;
+	margin-top: 20px;
+}
+#okvirLogovanje #formaLogout{
+	float: left;
+	width: 40%;
+	margin-top: 20px;
+}
+.dugme{
+	padding: 3px;
+}
+#logovanje{
+	width: 80%;
+	margin: 10px auto;
+}
+.tbLogin{
+	height: 20px;
+	margin:2px;
+	width: 80%;
+}
+#logovanje .dugme{
+	float: left;
+	margin:2px;
+	padding: 2px;
+}
+#korpa{
+	float: left;
+	height: 70px;
+	padding: 5px;
+	margin-top: 10px;
+}
+#slike{
+	width:1024px;
+	height: 250px;
+}
+#slike img{
+	display: none;
+	width: 90%;
+	height: 250px;
+}
+#slike .prikazana{
+	display: inline;
+}
+#snizenje{
+	width: 64px;
+	position: relative;
+	top: -250px;
+	right: -800px;
+}
+.sadrzajRed{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.sadrzajKolona{
+	width: 400px;
+	float: left;
+	margin : 0 auto;
+	margin-top: 20px;
+}
+#blokPretraga{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#blokPretraga h5{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#blokPretraga input{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	width: 60%;
+	margin-left: 5px;
+}
+#blokPretraga select{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	width: 60%;
+}
+#navigacija{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+#navigacija span{
+	width: 40%;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+#navigacija span a{
+	text-decoration: none;
+}
+.telefon{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+	padding: 10px;
+}
+.telefon a{
+	text-decoration: none;
+	color: black;
+}
+.telefon .slika {
+	width: 30%;
+	float: left;
+}
+.telefon .slika img{
+	height: 120px;
+}
+.telefon .ime{
+	width: 60%;
+	float: left;
+	margin-left: 10px;
+}
+.telefon .opis{
+	width: 60%;
+	float: left;
+	margin-left: 10px;
+	font-size: 13px;
+}
+.telefon .cena{
+	float: right;
+	width: 20%;
+}
+.telefon .btnNaruci{
+	padding: 5px;
+}
+.anketa{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-style: italic;
+}
+.dugmeAnketa{
+	padding: 3px;
+	margin-left: 5px;
+}
+.rezultatAnkete{
+	margin-top: 20px;
+	width: 80%;
+	font-style: italic;
+}
+.red{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.red .kolona{
+	width : 30%;
+	margin: 0 auto;
+	float:left;
+	text-align:center;
+}
+.red .kolona ul{
+	list-style: none;
+}
+.red .kolona li{
+	margin-bottom: 3px;
+}
+.red .kolona a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+}
+#prvaKolona{
+	border-right: 2px solid #000;
+}
+#meniAdmin{
+	width: 1000px;
+	margin: 0 auto;
+}
+#sadrzajAdminMeni{
+	width: 90%;
+	float: left;
+}
+#sadrzajAdminMeni ul{
+	list-style: none;
+	padding-top: 20px;
+}
+#sadrzajAdminMeni ul li{
+	float: left;
+	padding-right: 20px;
+}
+#sadrzajAdminMeni ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #49515a;
+}
+#panelSadrzaj{
+	width: 1000px;
+	margin: 0 auto;
+}
+#panelSadrzaj #levo{
+	width: 40%;
+	float: left;
+}
+#panelSadrzaj #desno{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+}
+#podmeni{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#podmeni ul{
+	list-style: none;
+}
+#podmeni ul li{
+	margin-top: 10px;
+}
+#podmeni ul li a{
+	text-decoration: none;
+	color: #49515a;
+}
+#desno #prikaz{
+	width: 80%;
+	margin: 0 auto;
+	margin-top:20px;
+}
+#desno #izmena{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#desno #prikaz #proizvodjaci{
+	width: 90%;
+	margin: 10px auto;
+}
+#desno #prikaz #modeli{
+	width: 90%;
+	margin: 10px auto;
+}
+#desno #izmena #proizvodjaciIzmena{
+	width: 90%;
+	margin: 10px auto;
+}
+#desno #izmena #modelIzmena{
+	width: 90%;
+	margin: 10px auto;
+}
+.cisti
+{
+	clear: both;
+}
+#okvirMeni ul
+{
+	list-style: none;
+	padding-top: 20px;
+}
+#okvirMeni ul li
+{
+	float: left;
+	padding-right: 20px;
+}
+#okvirMeni ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #778492;
+}
+#korisnik{
+	width: 80%;
+	margin:20px auto;
+}
+#podaciKorisnika{
+	width: 90%;
+}
+#slikaKorisnik img{
+	width: 80%;
+	margin:0 auto;
+}
+#podaciKorisnika #korisnikForma{
+	margin-top:20px;
+}
+#korisnikForma .korisnikDugme{
+	margin-left: 3px;
+	margin-top:3px;
+}
+#korisnikForma table tr td{
+	padding: 3px;
+}
+#korisnikForma input{
+	padding: 3px;
+}
+#desno #prikaz table tr td{
+	padding: 3px;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+#desno #prikaz table tr td img{
+	width: 32px;
+	height: 32px;
+}
+.dugmePanel{
+	margin-left: 3px;
+	padding: 3px;
+}
+#desno #izmena .tbText{
+	margin: 2px;
+	padding: 2px;
+}
+#desno #izmena table tr td{
+	padding: 3px;
+	text-align: center;
+}
+#desno #prikaz #modeli table {
+	font-size: 12px;
+}
+#desno #izmena #modelIzmena #ddlProizvodjac{
+	width: 80%;
+} 
+#izmena .izmenaAnketa{
+	margin-top:10px;
+}
+#desno #izaberiModel table tr td{
+	border:none;
+}
+#slikeModela .malaSlika{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+#izmena table tr td #ddlUsername{
+	width: 80%;
+}
+#izmena table tr td #ddlUloga{
+	width: 80%;
+}
+#brisanje{
+	width: 70%;
+	margin: 20px auto;
+}
+#desno #brisanje table tr td{
+	padding: 3px;
+	text-align: center;
+}
+#desno #brisanje table tr td img {
+	width:80%;
+	height: 80%;
+}
+#prikazKorpa{
+	position: absolute;
+	z-index: 2;
+	right: 65px;
+	top: 13px;
+	display: block;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	width: 220px;
+	height:300px;
+	background-color: #f5f5f5;
+	border-top: 2px solid blue;
+	overflow-y: auto;
+	z-index: 3;
+}
+#prikazKorpa .model{
+	background-color: #32383e;
+	width: 218px;
+	height: 30px;
+	position: relative;
+	border:1px solid blue;
+}
+#prikazKorpa .model #nazivModel{
+	float: left;width: 175px;
+	height: 27px;
+	padding-left: 5px;
+	padding-top: 3px;
+	font-size: 16px;
+	color: black;
+	z-index: 4;
+}
+#prikazKorpa .model #cena{
+	float: right;
+	font-size: 14px;
+	height: 27px;
+	padding-top: 3px;
+}
+#futerKorpa{
+	width: 220px;
+	height: 40px;
+	background-color: white;
+	z-index: 3;
+	position: relative;
+	top:0px;
+	right: 0px;
+}
+#korpaUkupno{
+	position: relative;
+	top: 5px;
+	left:15px;
+	font-size: 18px;
+}
+#ukupnaCena{
+	background-color: black;
+	width: 65px;
+	height: 25px;
+	position: relative;
+	top: -23px;
+	left: 115px;
+	z-index: 4;
+	color:white;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#okvirKorpa{
+	display: none;
+	position: absolute;
+	top: 100px;
+	right: 200px;
+	width: 220px;
+	height: 340px;
+	z-index:3;
+}
+#slikeArtikli{
+	float: right;
+}
+.obavestenje{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.labela{
+	font-size: 15px;
+	font-style: italic;
+}
+h2{
+	font-size: 25px;
+	font-style: italic;
+}
+h2 a{
+	text-decoration: none;
+	color: blue;
+}
