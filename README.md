@@ -16,3 +16,6 @@ XAMPP, Sublime Text
 
 ## Ostalo
 AJAX, HTML, CSS, lightBox(jQuery lib)
+
+# Link
+http://mobilnitelefoni.byethost7.com/
